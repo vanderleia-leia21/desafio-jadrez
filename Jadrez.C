@@ -8,10 +8,25 @@ int main() {
     for (int i = 0; i < 5; i++) {
         x++;
         y++;
-        printf("\nCima/esquer: %dcasa\n", x, y);
-        printf("cima/direita:%dcasa\n", x,y);
-        printf("baixo/esquerda:%ddcasa\n", x,y);
-        printf("baixo/direita:%dcasa\n", x,y);
+        printf("Cima/esquerda: %d casa\n", x, y);
+    printf("Mobimendo do Bisto:\n");
+    }
+    for (int i = 0; i < 5; i++) {
+        x++;
+        Y++;
+        printf("Cima/direita: %d casa\n", x,y);
+    printf("Movimentodo Bispo:\n");
+    }
+    for (int i = 0; i < 5; i++) {
+        x++;
+        y++;
+        printf("Baixo/esquerda: %d casa\n", x,y);
+    printf("Movimento do Bispo:\n");
+    }
+    for (int i = 0; i < 5; i++) {
+        x++;
+        y++;
+        printf("Baixa/direita: %d casa\n", x,y);
     
     }
 
@@ -23,7 +38,7 @@ int main() {
     int i = 0;
     while (i < 5) {
         x++;
-        printf("\ndireita: %d casa\n", x, y);  // y permanece o mesmo
+        printf("direita: %d casa\n", x, y);  // y permanece o mesmo
         i++;
     }
 
@@ -35,7 +50,7 @@ int main() {
     i = 0;
     do {
         x++;
-        printf("\nEsquerda: %d casa\n", x, y);  // y permanece o mesmo
+        printf("Esquerda: %d casa\n", x, y);  // y permanece o mesmo
         i++;
     } while (i < 8);
 
