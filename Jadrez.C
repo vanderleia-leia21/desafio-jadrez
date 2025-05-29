@@ -8,24 +8,11 @@ int main() {
     for (int i = 0; i < 5; i++) {
         x++;
         y++;
+        printf("Movimento do Bispo:Para Cima\n");
         printf("Cima/esquerda: %d casa\n", x, y);
-    printf("Mobimendo do Bisto:\n");
-    }
-    for (int i = 0; i < 5; i++) {
-        x++;
-        Y++;
         printf("Cima/direita: %d casa\n", x,y);
-    printf("Movimentodo Bispo:\n");
-    }
-    for (int i = 0; i < 5; i++) {
-        x++;
-        y++;
+        printf("Movimentodo Bispo: Para Baixo\n");
         printf("Baixo/esquerda: %d casa\n", x,y);
-    printf("Movimento do Bispo:\n");
-    }
-    for (int i = 0; i < 5; i++) {
-        x++;
-        y++;
         printf("Baixa/direita: %d casa\n", x,y);
     
     }
