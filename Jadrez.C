@@ -7,8 +7,8 @@ int main() {
     printf("Direita\n"); // Imprimir a direita da movimento 
    }   
 
-while(int enum = 0; enum <= 5) { 
-    printf("cima\n"&enum); //"""Imprimir a cima para movimento do bispo"""
+while(int i = 0; i <= 5 ) { 
+    printf("cima\n", i) i++;"""Imprimir a cima para movimento do bispo"""
 }
 
 
