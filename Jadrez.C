@@ -64,10 +64,39 @@ int main() {
     printf("\nMovimento da Rainha:\n");
     i = 0;
     do {
-        x++;
+        x--;
         printf("Esquerda: %d casa\n", x, y);  // y permanece o mesmo
         i++;
     } while (i < 8);
+  // Reiniciando posição
+    x = 0;
+// ===== Movimento da Rainha (direita - x--) usando do-while =====
+    printf("\nMovimento da Rainha(do-while):\n");
+    i = 0;
+    do {
+        x--;
+        printf("direita: %d casa\n", x, y);  // y permanece o mesmo
+        i++;
+    } while (i < 8);
+
+
+// Reiniciando posição
+    x = 0;
+
+    // ===== Movimento do cavalo (direita y, x) usando while e for=====
+ while (movimentoCompleto--)
+ printf("Movimento do cavalo:\n");
+   x++;
+   Y++;
+ {
+      for (int i = 0; i < 3; i++) {
+        printf("cima:%d\n", x, y);// imprime "cima" duas vezes
+        printf("Direita:%d\n", x,y);//imprime "direita" uma vez
+     }
+
+
+
+ }
 
     return 0;
 }
