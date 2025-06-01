@@ -2,7 +2,7 @@
 
 int main() {
     int x = 0, y = 0; // Posição inicial comum
-    int movimentoCompleto= 1 ; //Pra controlar o movimento do cavalo
+    int movimentocavalo = 1 ; //Pra controlar o movimento do cavalo
 
     // ===== Movimento do Bispo (diagonal superior direita x++, y++) usando for =====
     printf("Movimento do Bispo: Cima/Direita\n");
@@ -65,7 +65,7 @@ int main() {
     printf("\nMovimento da Rainha:\n");
     i= 0;
     do {
-        x--;
+        x++;
         printf("Esquerda: %d casa\n", x, y);  // y permanece o mesmo
         i++;
     } while (i < 8);
@@ -82,12 +82,13 @@ int main() {
 
 // Reiniciando posição
     x = 0;
-    while (movimentoCompleto--);
-    {
-     for(int i = 0, i = 2, i++) {
-          printf("Cima\n"); //imprimir cima duas vezes
-        }
-          printf("Direita\n");//imprimir dereita uma vez
-    }
+    // ===== Movimento do cavalo (cima e esquerda x) usando while-for =====
+    printf("\nMovimento do Cavalo:\n");
+      for(int i= 0, i < 2; i++);{
+      i++;
+        printf("Cima:%d\n"); //imprimir cima duas vezes
+      }
+    
+
     return 0;
 }
